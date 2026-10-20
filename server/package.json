@@ -1,0 +1,14 @@
+{
+  "name": "remote-update-trigger-server",
+  "version": "1.0.0",
+  "description": "Backend Express para ping e disparo remoto de Windows Update via WinRM",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
